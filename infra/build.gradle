@@ -1,0 +1,9 @@
+// Este archivo no aplica para proyectos Terraform (HCL).
+// Terraform usa 'terraform init' para descargar providers y módulos,
+// y su configuración de dependencias se gestiona en 'versions.tf' y 'providers.tf'.
+//
+// El proyecto ya incluye los archivos requeridos para Terraform:
+// - versions.tf (define las versiones de Terraform y providers)
+// - providers.tf (declara los providers como hashicorp/aws)
+//
+// No se necesita un build.gradle en proyectos Terraform.

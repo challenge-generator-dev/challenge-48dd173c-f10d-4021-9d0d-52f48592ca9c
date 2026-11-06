@@ -1,0 +1,27 @@
+name: pedidos_app
+description: Aplicación móvil para gestión de pedidos
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  equatable: ^2.0.5
+  get_it: ^8.0.2
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

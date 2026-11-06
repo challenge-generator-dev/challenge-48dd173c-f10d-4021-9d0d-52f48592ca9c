@@ -1,0 +1,64 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.*.backup
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Terraform provider plugins
+.terraform/
+
+# Variable override files with sensitive data
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Plan files (can contain sensitive data)
+*.plan
+*.plan.*
+
+# Backup files
+*~
+*.bak
+
+# Log files
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment-specific override files
+environments/*/local.tfvars
+environments/*/.terraform.lock.hcl
+
+# Lambda deployment packages
+*.zip
+lambda_function_payload.zip
+
+# Cloud-specific credentials (never commit these)
+credentials.json
+*.pem
+*.key
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python virtual environments (if using Python scripts)
+venv/
+env/
+.venv/
+
+# Node modules (if using Node scripts)
+node_modules/
+
+# Secret files (explicit list to prevent accidental commits)
+secrets.tf
+secret*
